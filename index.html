@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Task manager</title>
+</head>
+
+<body>
+    <header>
+        <h1>Administrador de tareas</h1>
+    </header>
+    <main>
+        <div class="box">
+            <form method="get">
+                <label for="text">
+                    <input type="text" name="new_task" id="new_task" placeholder="¿Qué necesitas hacer?">
+                </label>
+
+                <p><input type="checkbox" name="" id="">Mi primera tarea</p>
+                <p><input type="checkbox" name="" id="">Una tarea sin terminar</p>
+                <p><input type="checkbox" name="" id="" checked><del>Una tarea terminada</del></p>
+
+                <label for="edit-text">
+                    <input type="text" name="edit-task" id="edit-task" placeholder="Una tarea en modo edicion">
+                </label>
+                <p><input type="checkbox" name="" id="">Una tarea para eliminar</p>
+                <p><input type="checkbox" name="" id="">Una tarea con un texto muy largo:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+                    velit. Odit iste ipsam ducimus mollitia consequatur dolor earum id quas cupiditate molestiae
+                    asperiores animi est, adipisci aliquid iure sapiente ab?
+                </p>
+                <p><input type="checkbox" name="" id="">Tarea numero 7</input></p>
+                <p><input type="checkbox" name="" id="">Tarea numero 8</input></p>
+                <p><input type="checkbox" name="" id="">Tarea numero 9</input></p>
+                <p><input type="checkbox" name="" id="">Tarea numero 10</input></p>
+                <p>Quedan 9 tareas <button disabled="disabled" class="button">Todas</button><button
+                        class="button">Pendientes</button><button class="button">Completadas</button></p>
+
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
